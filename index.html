@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Psychology Quiz</title>
+    <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="java/script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="background">
+        </div>
+        <header>
+            <h1>Test Your Psychology Knowledge</h1>
+        </header>
+
+        <section class="introSection" id="intro">
+            <p>Do you know everything there is to know about psychology?</p>
+            <h4> Prove your psychology knowledge in this basic test!</h4>
+            <button id="begin"> Enter Quiz </button>
+        </section>
+        <section class="quiz-section">
+            <p id="question-num"> Question X of Y </p>
+            <h4 id="question"> Who is considered the father of psychoanalysis?</h4>
+            <div id="choices">
+                <input type="radio" class="options" value="0" />Sigmund Freud</br>
+                <input type="radio" class="options" value="1" />Carl Rogers</br>
+                <input type="radio" class="options" value="2" />Ivan Pavlov</br>
+                <input type="radio" class="options" value="3" />Erik Erikson</br>
+            </div>
+            <button id="submit">Submit Answer</button>
+        </section>
+        <section class="results">
+            <h4> Congrats on finishing the quiz</h4>
+            <p> Your score is X / Y </p>
+            <button id="reset">Try Again</button>
+        </section>
+    </div>
+</body>
+
+</html>

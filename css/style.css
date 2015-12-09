@@ -1,0 +1,102 @@
+        /* CSS reset 
+	(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+        
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font-family: 'Calligraffitti', cursive;
+        }
+        /* General styles 
+	(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+        
+        .background {
+            background: rgba(0, 0, 0, 0) url("../images/psychcolor.jpg") repeat scroll center top / cover;
+            min-height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            z-index: -999;
+        }
+        input {
+            margin-right: 1rem;
+        }
+        /* Header styles 
+	(all the styles inside the < header > or < nav > tags) 
+*/
+        
+        h1 {
+            color: deeppink;
+            font-size: 5rem;
+            font-weight: 900;
+            letter-spacing: 0.25rem;
+            text-align: center;
+            background-color: black;
+            opacity: .8;
+            border-bottom-color: deeppink;
+            border-bottom: 10px solid;
+            font-family: 'Calligraffitti', cursive;
+        }
+        /* Content styles 
+	(all the styles inside the < sections > or < aside > tags)
+*/
+        
+        .quiz-section,
+        .introSection,
+        .results {
+            color: deeppink;
+            font-size: 2.5rem;
+            letter-spacing: 0.25rem;
+            background-color: black;
+            width: 28rem;
+            height: 28rem;
+            padding: 3rem;
+            margin: auto;
+            margin-top: 4rem;
+            opacity: .7;
+            text-align: center;
+        }
+        .introSection h2 {
+            color: deeppink;
+            font-size: 2.5rem;
+            font-variant: small-caps;
+            padding: 1rem;
+        }
+        .introSection p,
+        .quiz-section p,
+        .quiz-section,
+        .results p {
+            color: deeppink;
+            font-size: 1.5rem;
+            letter-spacing: 0.25rem;
+            padding: 1rem;
+        }
+        .quiz-section h4,
+        .introSection h4,
+        .results h4 {
+            color: hotpink;
+            font-size: 2rem;
+            letter-spacing: 0.25rem;
+            margin-bottom: 1rem;
+        }
+        #begin,
+        #submit,
+        #reset {
+            color: black;
+            font: 3 rem;
+            border: 10px outset #ffffff;
+            opacity: none;
+            align-self: auto;
+            background-color: yellow;
+            margin-top: 1rem;
+        }
+        /* Footer styles 
+	(all the styles inside the < footer > tag)
+*/
+        /* Responsive styles 
+	(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
